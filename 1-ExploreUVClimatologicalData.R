@@ -27,7 +27,7 @@ options(scipen=10000)
 options(stringsAsFactors=FALSE)
 
 # Working directory
-.wd <- "/Volumes/FS/_ISPM/ENVEPI/RESTRICTED"
+.wd <- "Y:/ENVEPI/RESTRICTED"
 
 # File paths
 .proj <- "temp/p_UV"

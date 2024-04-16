@@ -22,7 +22,7 @@ options(scipen=10000)
 options(stringsAsFactors=FALSE)
 
 # Working directory
-.wd <- "/Volumes/FS/_ISPM/ENVEPI/RESTRICTED"
+.wd <- "Y:/ENVEPI/RESTRICTED"
 
 # File paths
 .dat <- "temp/test_snc_prep/snc/R/data/SNC.TimetoEvent.snc3_90_00_16_new_full_20200824"

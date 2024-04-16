@@ -19,7 +19,7 @@ options(scipen=10000)
 options(stringsAsFactors=FALSE)
 
 # Working directory
-.wd <- "/Volumes/FS/_ISPM/ENVEPI/RESTRICTED"
+.wd <- "Y:/ENVEPI/RESTRICTED"
 
 # File paths
 .orig <- "origdata/climatological_data"
@@ -39,10 +39,6 @@ options(stringsAsFactors=FALSE)
 
 # Convert WGS84 coordinates to LV95/CH1903+ coordinates
 source(file.path(.wd,.proj,"R/scripts/functions/convertwgs84tolv.R"))
-
-# The Swisstopo source code to convert WGS84 coordinates to the Swiss coordinate reference
-# system does not state whether conversion is to CH1903+/LV95 or CH1903/LV03 but differences
-# are negligible for our purposes.
 
 #==========================================================================================#
 # Data Import
